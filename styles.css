@@ -1,0 +1,257 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
+/* text formatting about */
+
+h1 {text-align: center;
+	font-family: 'Space Grotesk', sans-serif;
+	margin-bottom:.2%;
+	color: #667EB9;
+}
+
+
+p {font-family: 'Archivo', sans-serif;
+ text-align: justify;
+  text-justify: inter-word;
+}
+
+/* About text */
+
+#about {
+	color: black;
+	font-family: 'Space Grotesk', sans-serif;
+	text-align: justify;
+	width: 35%;
+}
+
+/* Background index page */
+
+#bodyindex {
+	height: 100%;
+    background: linear-gradient(90deg, #CEDB61 50%, #F1E518 50%);
+}
+
+
+#centeredbod{
+height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:80%;
+
+}
+
+/* navigation*/
+
+
+.flex-container {
+padding-top: 10%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: right;
+}
+
+.list-item {
+	font-size: 20px;
+	color:#ACA509;
+	padding: 1%;
+	margin-top: 5px;
+	list-style: none;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+
+/* unvisited link */
+
+a.one:link {color: #F07316; text-decoration: none}
+a.one:visited {color: #F07316;}
+
+a.one:hover, a:active {
+	color: #667EB9;
+	text-decoration: none;
+}
+
+a.two:link, a:visited{
+color: black;
+	 text-decoration: none;
+}
+
+a.two:hover, a:active {
+	color: #667EB9;
+	text-decoration: none;
+}
+
+/* Style the header */
+
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+ #bodyindex {
+	height: 100%;
+    background: linear-gradient(#CEDB61 50%, #F1E518 50%);
+}}
+
+@media (max-width: 600px) {
+#abouth1 {
+	margin-top: 15%;
+}}
+
+/*container within column*/
+
+.containerleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:4%;
+    margin-right:4%;
+}
+    
+.containerright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+
+
+/* contact info image, links etc */
+
+
+#imgjp {
+    max-width: 30%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:35px;
+}
+
+@media (max-width: 600px) {
+#imgjp {
+max-width: 50%;
+margin-top:2%;
+}}
+
+
+
+#flower3{
+ max-width:50%;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;}
+
+@media (max-width: 600px) {
+#flower3 {
+max-width:80%;
+margin-bottom:-11%;
+
+}
+}
+
+#flower2{max-width: 75%;
+  margin-top:1%;
+  margin-bottom: 3%;
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caption{font-family: 'Archivo', sans-serif;
+color:#F07316;
+list-style: none;
+
+}
+
+/* projects */
+
+#bodyprojects {
+	height: 100%;
+	background-color: #CEDB61;
+    background: linear-gradient(90deg,#CEDB61, #F1E518);
+}
+
+#centeredbox{
+height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:70%;
+
+}
+
+#projectsub{
+font-family: 'Space Grotesk', sans-serif;
+	color: #667EB9;
+
+}
+
+#imgproject{max-width: 45%;
+padding-right:5px;
+padding-top:35px;
+
+
+}
+
+#imgcontact{max-width:32%;
+max-height:50%;
+padding-top:35px;
+}
+
+
+#imgfooter{max-width: 15%;
+padding-bottom: 5%;
+padding-top: 10%;
+}
+
+
+#imgsci{max-width: 80%;
+padding-top:5px;
+}
+
+#bodypub {
+	height: 100%;
+	background-color: #CEDB61;
+    background: repeating-radial-gradient(circle, #CEDB61 15px, #F1E518 15px, #71AEB8 30px);
+}
+/*pub*/
+
+#color{width:90%;
+background-color:#F1E518;
+height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:2%;
+	margin-bottom:1%;
+	border-radius: 50px;
+
+}
